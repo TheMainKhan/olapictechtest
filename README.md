@@ -1,6 +1,11 @@
 # olapictechtest
 This is where my technical test files and answers to questions can be seen. Below can be found the answers to the questions and validation test issue and solution.
 
+Website creation:
+Once I read up on the API documentation, I started to research best grid layouts which is when I came across the “grid” layout type, but upon retrieving the images I found that there were over 10 images and all the of them had to be displayed.
+
+At this point I started to investigate arrays which is where I found the Owl Carousal, this allows to change images on a loop, once set up correctly and uses an array to do so. Alongside that I used jQuery and AJAX to make the GET requests. Which then allowed me to receive back the JSON format form the API.
+
 
 Q1 -- Integration Inquiry
 "Is there an Olapic integration with Salesforce Commerce Cloud? We are in the process of moving to SCC; if we decided to integrate Olapic, how "would we go about doing that?”
