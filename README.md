@@ -1,4 +1,4 @@
-# olapictechtest
+# Olapictechtest
 This is where my technical test files and answers to questions can be seen. Below can be found the answers to the questions and validation test issue and solution.
 
 Website creation:
