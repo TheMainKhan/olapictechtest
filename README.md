@@ -45,8 +45,11 @@ A4: I sincerely apologise for the inconvenience this has caused, please find you
 Rationale/Sources: This is something that we have done incorrectly and we need to be transparent with the customer and accept that its our fault but also go the next step and ask them to contact us if anything else goes bad, as good customer service is key.
 
 Validation results/problem:
-1.	Cvc-pattern-valid: Value 'APTS-02 Blue' Is Not Facet-valid With Respect To Pattern '[\S]+' For Type 'UniqueIdType'., Line '54', Column '48'.
-2.	Cvc-type.3.1.3: The Value 'APTS-02 Blue' Of Element 'ProductUniqueID' Is Not Valid., Line '54', Column '48'.
+1. Parsing error created by " Shorts Red" on line 139
+2.	Cvc-pattern-valid: Value 'APTS-02 Blue' Is Not Facet-valid With Respect To Pattern '[\S]+' For Type 'UniqueIdType'., Line '54', Column '48'.
+3.	Cvc-type.3.1.3: The Value 'APTS-02 Blue' Of Element 'ProductUniqueID' Is Not Valid., Line '54', Column '48'.
 
-Validation solution: Remove the word “Blue” (Line 55) as in the schema it only asks for size and this should fix the issue
+Validation solution: 
+1. Remove "Shorts Red" as that didnt allow parsing, after which is worked fine.
+2 & 3. Remove the word “Blue” as in the schema it only asks for size and this should fix the issue.
 
